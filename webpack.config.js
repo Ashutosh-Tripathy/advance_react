@@ -5,7 +5,7 @@ const path = require('path');
 const config = {
   entry: [
     'babel-polyfill',
-    './lib/components/Index.js' // necessary for hot reloading with IE
+    './lib/renderer/dom.js' // necessary for hot reloading with IE
   ],
 
   output: {

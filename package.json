@@ -2,7 +2,7 @@
   "name": "advance_react",
   "version": "1.0.0",
   "description": "\"react and express app\"",
-  "main": "index.js",
+  "main": "renderer/dom.js",
   "author": "Ashutosh Tripathy",
   "license": "MIT",
   "scripts": {
