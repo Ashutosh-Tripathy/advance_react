@@ -3,9 +3,16 @@
 const path = require('path');
 
 const config = {
+  resolve: {
+    modules: [
+      path.resolve('./lib'),
+      path.resolve('./node_modules')
+    ]
+  },
+
   entry: [
     'babel-polyfill',
-    './lib/renderer/dom.js' // necessary for hot reloading with IE
+    './lib/renderers/dom.js' // necessary for hot reloading with IE
   ],
 
   output: {
